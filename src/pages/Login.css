@@ -1,0 +1,33 @@
+ .login {
+  padding: 20px;
+}
+
+.linha {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.linha-botao {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+input {
+  padding: 5px 4px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+button {
+  padding: 5px 0px;
+  border-radius: 5px;
+  border-width: 1px;
+  width: 100px;
+  margin-right: 10px;
+}

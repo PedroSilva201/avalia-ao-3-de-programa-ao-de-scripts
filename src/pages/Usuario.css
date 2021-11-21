@@ -1,0 +1,64 @@
+ .usuario {
+  padding: 20px;
+}
+
+.linha {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+input {
+  padding: 5px 4px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+button {
+  padding: 5px 0px;
+  border-radius: 5px;
+  border-width: 1px;
+  width: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+
+/* zebra */
+
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+
+/* primeira e última coluna */
+
+td:first-child,
+td:last-child {
+  text-align: right;
+}
+
+tbody>tr:hover {
+  background-color: #bbb;
+}
